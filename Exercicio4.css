@@ -1,0 +1,67 @@
+.Exemplo1 {
+  color: rgb(216, 217, 224);
+  font-style: italic;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.Exemplo2 {
+  border-radius: 5%;
+  border: 1px solid rgb(228, 227, 239);
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Exemplo3 {
+  background-color: seashell;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 500px;
+  justify-content: center;
+  gap: 20px;
+  text-align: justify;
+}
+.Exemplo4 {
+  color: rgb(75, 82, 150);
+  font-style: italic;
+  text-align: center;
+}
+.Exemplo5 {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+.Exemplo6 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  background-color: slategrey;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.Exemplo7 {
+  position: fixed;
+  bottom: 0;
+  background-color: slategrey;
+  width: 100%;
+}
+body {
+  font-family: "Tahoma", Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: rgb(191, 245, 227);
+  margin: 0;
+  height: 100%;
+}
+.Container {
+  display: flex;
+  gap: 50px;
+  margin: 100px;
+  padding: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
